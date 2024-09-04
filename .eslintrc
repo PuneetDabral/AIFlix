@@ -1,0 +1,88 @@
+// module.exports = {
+//   extends: ["react-app", "react-app/jest"],
+//   plugins: ["react"],
+//   env: {
+//     browser: true,
+//     es2021: true,
+//   },
+//   parserOptions: {
+//     ecmaFeatures: {
+//       jsx: true,
+//     },
+//     ecmaVersion: "latest",
+//     sourceType: "module",
+//   },
+//   globals: {
+//     React: "writable",
+//   },
+//   rules: {
+//     // Add any custom rules here if needed
+//   },
+// };
+
+{
+    "extends": [
+      "standard",
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:react-hooks/recommended",
+      "plugin:prettier/recommended",
+      "react-app/jest"
+    ],
+    "plugins": ["react", "prettier"],
+    "rules": {
+      "no-debugger": "off",
+      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+      "spaced-comment": "off",
+      "no-unneeded-ternary": "off",
+      "one-var": "off",
+      "no-empty-pattern": "off",
+      // disabled due to high usage in the app: start
+      "no-async-promise-executor": "off",
+      "react/prop-types": "off",
+      "react/display-name": "off",
+      "react/jsx-key": "off",
+      "no-case-declarations": "off",
+      "no-useless-catch": "off",
+      "prefer-const": "off",
+      "dot-notation": "off",
+      "array-callback-return": "off",
+      "no-undef": "off",
+      "space-before-function-paren": "off",
+      // disabled due to high usage in the app: end
+      "no-extra-boolean-cast": "warn",
+      "import/no-duplicates": "warn",
+      "no-useless-return": "warn",
+      "no-return-await": "warn",
+      "no-use-before-define": "warn",
+      "no-fallthrough": "warn",
+      "standard/computed-property-even-spacing": "off",
+      "no-unused-vars": "warn",
+      "new-cap": "warn",
+      "camelcase": "warn",
+      "eqeqeq": "warn",
+      "no-undef-init": "warn",
+  
+      "no-empty": "warn",
+      "no-prototype-builtins": "warn",
+  
+      "react/no-unescaped-entities": "warn",
+      "react/jsx-no-duplicate-props": "warn",
+      "prettier/prettier": ["error", { "endOfLine": "auto", "printWidth": 120 }],
+      "react/react-in-jsx-scope": "off"
+    },
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "env": {
+      "es6": true
+    },
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    }
+  }
+  
