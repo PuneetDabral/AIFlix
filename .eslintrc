@@ -1,25 +1,3 @@
-// module.exports = {
-//   extends: ["react-app", "react-app/jest"],
-//   plugins: ["react"],
-//   env: {
-//     browser: true,
-//     es2021: true,
-//   },
-//   parserOptions: {
-//     ecmaFeatures: {
-//       jsx: true,
-//     },
-//     ecmaVersion: "latest",
-//     sourceType: "module",
-//   },
-//   globals: {
-//     React: "writable",
-//   },
-//   rules: {
-//     // Add any custom rules here if needed
-//   },
-// };
-
 {
     "extends": [
       "standard",
