@@ -3,6 +3,9 @@
 - create react app
 - configure tailwind css
 - added emotion styled lib
+  -header
+  -Login Form
+  -Sign up form
 
 <!-- features -->
 
@@ -23,3 +26,7 @@
 - netflix gpt
   -search bar
   -movie suggestion
+
+<!-- start
+npx create-react-app my-app
+Set up ESLint, Prettier, and Husky for code quality and linting
